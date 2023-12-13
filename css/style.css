@@ -112,6 +112,7 @@ a {
 .populaires-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
+    font-size: 15px;
 }
 
 .populaires-cards .card-subtitle {
@@ -290,7 +291,7 @@ h1 {
 }
 
 .card-marseille {
-    width: 110%;
+    width: 100%;
     height: 207.25px;
     padding: 0px 0px 15px 0px;
     border-radius: 20px;
@@ -314,8 +315,11 @@ h1 {
 
 h4 {
     font-weight: 700;
-    font-size: 16px;
     line-height: 18.78px;   
+}
+
+.decor-prix {
+    width: max-content;
 }
 
 .populaires-cards .decor-prix {
@@ -337,9 +341,9 @@ h4 {
 }
 
 #plus-info {
-    padding-top: 15px;
     font-size: 18px;
     font-weight: 700;
+    margin-left: 5px;
 }
 
 h5 {
@@ -431,23 +435,20 @@ footer {
         width: 30%;
     }
 
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
 
     .filtre-bouton {
-        padding-right: 7px;
+        padding-right: 5px;
     }
 
     .titre-activite {
-        width:fit-content;
+        width: fit-content;
         margin: 0px;
         padding-top: 10px;
         padding-bottom: 0px;
+        padding-left: 5px;
     }
 
     .alignement-cards {
@@ -472,12 +473,20 @@ footer {
         gap: 30px;
     }
 
+    h6 {
+        padding: 5px 0px 0px 0px;
+    }
+
     .card-activite {
         height: 40%;
     }
 
     .card-activite img {
         height: 200px;
+    }
+
+    .info-footer {
+        width: max-content;
     }
 }
 
@@ -579,7 +588,6 @@ footer {
     }
     
     .filtre-bouton {
-        padding: 4px 19px 4px 19px;
         gap: 10px;
         width: 100%;
         height: 50px;
@@ -611,9 +619,54 @@ footer {
     .alignement-horizontal {
         display: block;
     }
+    
+    .hebergements-and-populaires section {
+        border-radius: initial;
+        padding: 30px 20px 30px 20px;
+        gap: 15px;
+    }
 
-    .card-marseille {
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .card-marseille img {
+        width: 98%;
+    }
+
+    h1 {
+        margin-top: 10px;
+    }
+
+    h5 {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+
+    #plus-info {
+        margin-top: 7px;
+    }
+
+    #activités {
+        padding: 30px;
+    }
+
+    .activite-marseille {
+        display: block;
+    }
+
+    .card-activite {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .pied-de-page {
         width: max-content;
     }
-    /*test*/
 }
