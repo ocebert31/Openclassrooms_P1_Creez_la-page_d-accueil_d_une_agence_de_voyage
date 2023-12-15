@@ -565,8 +565,7 @@ footer {
     }
 
     .bouton-barre {
-        width: 49px;
-        height: 49px;
+        width: 10%;
         padding: 0px;
     }
     
@@ -589,6 +588,14 @@ footer {
         font-size: 13px;
     }
 
+    .fond-icon {
+        width: 10%;
+    }
+
+    .bordure-encadré {
+        width: 80%;
+    }
+
     li {
         width: 46%;
         display: flex;
@@ -598,10 +605,6 @@ footer {
         display: flex;
     }
 
-    .information {
-        max-width: 320px;
-    }
-    
     .hebergements {
         order: 2;
         padding: 20px;
@@ -620,10 +623,6 @@ footer {
 
     .alignement-horizontal {
         display: block;
-    }
-
-    #recherche-hebergement {
-        font-size: 21px;
     }
     
     .hebergements-and-populaires section {
@@ -676,11 +675,6 @@ footer {
     .card-activite {
         margin-bottom: 20px;
     }
-    
-    nav p {
-        inline-size: 320px;
-        overflow-wrap: break-word;
-        }
 
     .titre-activite {
         max-width: 100%;
@@ -707,7 +701,6 @@ footer {
     .card-activite,
     .card-marseille
     .main-container
-    .bordure-encadré
     .localisation
     #logo-Booki  {
         width: 100%;
