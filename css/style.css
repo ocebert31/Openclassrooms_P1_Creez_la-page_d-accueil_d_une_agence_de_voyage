@@ -23,6 +23,8 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    text-overflow: clip;
+    overflow: hidden;
 }
 
 a {
@@ -507,7 +509,7 @@ footer {
     }
 
     body {
-        margin: 0px;
+        margin: 0;
         justify-content: initial;
     }
 
@@ -705,4 +707,5 @@ footer {
     #logo-Booki  {
         width: 100%;
     }
+
 }
