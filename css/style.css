@@ -110,9 +110,10 @@ a {
 }
 
 .populaires-cards .card-title {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 4px;
     font-size: 15px;
+    max-width: 140px;
 }
 
 .populaires-cards .card-subtitle {
@@ -127,7 +128,6 @@ a {
     width: 161.09px;
     height: 79px;
     gap: 10px;
-    margin-top: 30px;
 }
 
 img {
@@ -149,6 +149,7 @@ img {
         text-align: end;
         justify-content: space-between;
         text-align: center;
+        padding: 6px;
 }
 
 header nav {
@@ -274,7 +275,7 @@ header nav {
 }
 
 .icon-information {
-    color: blue; 
+    color: #0065FC; 
     border: 1px solid grey; 
     border-radius: 1em; 
     width: 1em; height: 1em; 
@@ -291,7 +292,7 @@ h1 {
 }
 
 .alignement-cards {
-    width: 30%;
+    width: 28%;
     justify-content: space-between;
 }
 
@@ -536,7 +537,7 @@ footer {
 
     .bouton {
         display: inline-block;
-        width: 43%;
+        width: 41%;
         font-weight: 400;
         font-size: 16px;
         text-align: center;

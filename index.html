@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +13,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/00d8b2ce18.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <div class="main-container">
-        <header>
-            <div id="alignement">
+        <header id="alignement">
                 <div id="logo-Booki">
                     <img src="./images/logo/Booki.png" alt="image du logo Booki">
                 </div>
@@ -26,16 +23,15 @@
                     <a href="#hébergements" class="bouton" id="bouton-hebergement">Hébergements</a>
                     <a href="#activités" class="bouton" id="bouton-activite">Activités</a>
                 </nav>
-            </div>
         </header>
-        <nav id="navigation">
+        <section id="navigation">
             <p id="recherche-hebergement">Trouver votre hébergement pour des vacances de rêve</p>
             <p class="ville-nature">En plein centre ville ou en pleine nature</p>
-            <div class="localisation">
+            <form class="localisation">
                 <span class="fond-icon"><i class="fa-sharp fa-solid fa-location-dot couleur-icon"></i></span>
                 <input type="text" class="bordure-encadré" placeholder="Marseille, France">
                 <button type="button" class="bouton-barre"><span id="loupe-mobile">Rechercher</span><i class="fa-solid fa-magnifying-glass logo-loupe"></i></button>
-            </div>
+            </form>
             <div class="position">
                 <span class="style-filtres">Filtres</span>
                 <ul class="filtres">
@@ -49,7 +45,7 @@
                 <i class="fa-solid fa-info icon-information"></i>
                 <span class="information">Plus de 500 logements sont disponibles dans cette ville</span>
             </div>
-        </nav>
+        </section>
         <main>
             <div class="hebergements-and-populaires alignement-vertical" id="hébergements">
                 <section class="hebergements">
@@ -252,35 +248,35 @@
                     </div>
                 </section>
             </div>
-                    <section class="activite-marseille" id="activités">
-                         <h5>Activités à Marseille </h5>
-                            <div id="disposition-activite">
-                                <article class="card-activite">
-                                    <a href="#">
-                                        <img src="./images/activites/reno-laithienne.jpg" alt="image de bâteau">
-                                        <h6 class="titre-activite">Vieux port</h6>
-                                    </a>
-                                </article>
-                                <article class="card-activite">
-                                    <a href="#">
-                                        <img src="./images/activites/paul-hermann.jpg" alt="image du Fort de Pomègues">
-                                        <h6 class="titre-activite">Fort de Pomègues</h6>
-                                    </a>
-                                </article>
-                                <article class="card-activite">
-                                    <a href="#">
-                                        <img src="./images/activites/kilyan-sockalingum.jpg" alt="image du Parc national des Calanques">
-                                        <h6 class="titre-activite">Parc national des Calanques</h6>
-                                    </a>
-                                </article>
-                                <article class="card-activite">
-                                    <a href="#">
-                                        <img src="./images/activites/florian-wehde.jpg" alt="image de Notre-Dame-de-la-Garde">
-                                        <h6 class="titre-activite">Notre-Dame-de-la-Garde</h6>
-                                    </a>
-                                </article>
-                            </div>
-                    </section>
+            <section class="activite-marseille" id="activités">
+                <h5>Activités à Marseille </h5>
+                    <div id="disposition-activite">
+                        <article class="card-activite">
+                            <a href="#">
+                                <img src="./images/activites/reno-laithienne.jpg" alt="image de bâteau">
+                                <h6 class="titre-activite">Vieux port</h6>
+                            </a>
+                        </article>
+                        <article class="card-activite">
+                            <a href="#">
+                                <img src="./images/activites/paul-hermann.jpg" alt="image du Fort de Pomègues">
+                                <h6 class="titre-activite">Fort de Pomègues</h6>
+                            </a>
+                        </article>
+                        <article class="card-activite">
+                            <a href="#">
+                                <img src="./images/activites/kilyan-sockalingum.jpg" alt="image du Parc national des Calanques">
+                                <h6 class="titre-activite">Parc national des Calanques</h6>
+                            </a>
+                        </article>
+                        <article class="card-activite">
+                            <a href="#">
+                                <img src="./images/activites/florian-wehde.jpg" alt="image de Notre-Dame-de-la-Garde">
+                                <h6 class="titre-activite">Notre-Dame-de-la-Garde</h6>
+                            </a>
+                        </article>
+                    </div>
+            </section>
         </main>
         <footer>
             <div class="pied-de-page">
@@ -312,7 +308,6 @@
         </footer>
     </div>
 </body>
-
 </html>
 
 <!--
