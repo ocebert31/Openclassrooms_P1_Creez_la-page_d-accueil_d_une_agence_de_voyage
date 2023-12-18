@@ -23,8 +23,6 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-    text-overflow: clip;
-    overflow: hidden;
 }
 
 a {
@@ -693,6 +691,8 @@ footer {
     .main-container {
         padding: 0;
         box-sizing: border-box;
+        text-overflow: clip;
+        overflow: hidden;
     }
     
     .hebergements-and-populaires section,
